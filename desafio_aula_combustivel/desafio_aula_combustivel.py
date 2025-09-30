@@ -16,7 +16,7 @@ if letra == "G" and quantidade > 0:
 if letra == "A" and quantidade > 0:
     valor = quantidade * ALCOOL
 
-if letra == "G" or letra == "A":
+if (letra == "G" or letra == "A") and quantidade > 0:
     print(f"Valor total: {valor:.2f}.")
 else:
     print("Valores invalidos.")
