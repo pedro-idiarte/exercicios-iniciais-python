@@ -1,6 +1,6 @@
 time_coracao = input("Digite o time do coração: ")
 
-time_coracao = time_coracao.upper
+time_coracao = time_coracao.strip().upper()
 
 if time_coracao == "GREMIO" or time_coracao == "GREMIO":
     print(f"Voce é Gremista")
